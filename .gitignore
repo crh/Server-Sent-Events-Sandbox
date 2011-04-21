@@ -1,0 +1,9 @@
+.idea/*
+build/*
+target
+target/*
+classes/*
+bin/*
+log/*
+reports/*
+*.log
