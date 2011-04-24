@@ -1,0 +1,6 @@
+Sandbox for experimenting [http://dev.w3.org/html5/eventsource/ Server-Sent Eventes]
+
+==usage==
+node sse-server.js
+in Web Browesr: http://localhost:8000
+    only tested in Chrome
