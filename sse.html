@@ -234,6 +234,8 @@
                 if (e.eventPhase == 2) { //EventSource.CLOSED
                     logger.log('> Connection was closed');
                     updateConnectionStatus('Disconnected', false);
+                } else {
+                    logger.log('unexpected happens');
                 }
             }, false);
         </script>

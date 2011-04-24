@@ -42,6 +42,13 @@ function sendSSE(req, res) {
 
     function constructSSE(res, id, data) {
         res.write('id: ' + id + '\n');
+        // data in JSON format
+        //data : "{\n"
+        //data : "msg: " :  data + '\n'
+        //data : "id: " : id + ''n'
+        //data : "}\n\n"
+        // \n\n is needed to mark the end of the stream.
+        res.write('retry: 10000\n');
         res.write("data: " + data + '\n\n');
     }
 

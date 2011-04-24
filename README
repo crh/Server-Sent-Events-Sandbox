@@ -1,6 +1,13 @@
 Sandbox for experimenting [http://dev.w3.org/html5/eventsource/ Server-Sent Eventes]
 
+original code:
+https://code.google.com/p/html5rocks/source/browse/www.html5rocks.com/#www.html5rocks.com%2Fcontent%2Ftutorials%2Feventsource%2Fbasics%2Fdemo
+
 ==usage==
 node sse-server.js
 in Web Browesr: http://localhost:8000
     only tested in Chrome
+
+==References==
+http://www.html5rocks.com/tutorials/eventsource/basics/#toc-introduction
+
